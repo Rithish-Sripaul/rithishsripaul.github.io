@@ -2,11 +2,23 @@ baseURL = 'https://rithishsripaul.com/'
 locale = 'en-us'
 title = 'Rithish Sripaul'
 theme = 'PaperMod'
+
 [params]
 # Enable math support for Math for AI notes
 math = true
 # Enable diagrams for OSTEP Systems notes
 mermaid = true
+
+# Profile Mode Settings (Your Home Page)
+[params.profileMode]
+enabled = true
+title = "Rithish Sripaul"
+subtitle = "MSCS Candidate (Fall 2026) | Research at TriadAI & DRDO/NSTL"
+displayFullDisp = true
+imageUrl = "URL_TO_YOUR_IMAGE"
+imageTitle = "Rithish Sripaul"
+imageWidth = 120
+imageHeight = 120
 
 [[params.profileMode.buttons]]
 name = "My Learning Journey"
@@ -28,16 +40,15 @@ name = "Projects"
 url = "/projects"
 weight = 20
 
+# Adding Socials as Text Links in the Top Bar
 [[menu.main]]
-identifier = "now"
-name = "Now"
-url = "/now"
-weight = 30
-
-[[menu.socialIcons]]
-name = "github"
+identifier = "github_link"
+name = "GitHub"
 url = "https://github.com/rithish-sripaul"
+weight = 40
 
-[[menu.socialIcons]]
-name = "linkedin"
+[[menu.main]]
+identifier = "linkedin_link"
+name = "LinkedIn"
 url = "https://linkedin.com/in/yourprofile"
+weight = 50
