@@ -2,3 +2,56 @@ baseURL = 'https://rithishsripaul.com/'
 locale = 'en-us'
 title = 'Rithish Sripaul'
 theme = 'PaperMod'
+[params]
+# Enable math support for Math for AI notes
+math = true
+# Enable diagrams for OSTEP Systems notes
+mermaid = true
+
+[params.profileMode]
+enabled = true
+title = "Rithish Sripaul"
+subtitle = "MSCS Candidate (Fall 2026) | Research at TriadAI & DRDO/NSTL"
+displayFullDisp = true
+imageUrl = "URL_TO_YOUR_IMAGE"                                            # Optional: Link to a headshot
+imageTitle = "Rithish Sripaul"
+imageWidth = 120
+imageHeight = 120
+
+
+[[params.profileMode.buttons]]
+name = "My Learning Journey"
+url = "/learning"
+
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "/projects"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/rithish-sripaul"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/yourprofile"
+
+[[menu.main]]
+identifier = "learning"
+name = "Learning"
+url = "/learning"
+weight = 10
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 20
+
+[[menu.main]]
+identifier = "now"
+name = "Now"
+url = "/now"
+weight = 30
+
+[params.homeInfoParams]
+Title = "Hi there \U0001F44B"
+Content = "Welcome to my coding journey. I'm documenting my path to an MSCS, focusing on Systems (OSTEP) and AI research at TriadAI."
